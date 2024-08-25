@@ -4,7 +4,7 @@ function avatar({imgSrc  }) {
     return (
         <div>
             
-            <img src={imgSrc} className="max-w-50  scroll-ml-6 hover:max-w-60 h-auto   " alt="" />
+            <img src={imgSrc} className="max-w-50 max-h-50  scroll-ml-6 hover:rotate-1 rounded-full   " alt="" />
         </div>
     );
 }
